@@ -1,3 +1,4 @@
+
 <h1 align="center">
   PigCI
 </h1>
@@ -6,7 +7,9 @@
 Monitor your Ruby Applications metrics (Memory, SQL Requests & Request Time) as part of your test suite. If your app exceeds an acceptable threshold it'll fail the test suite.
 </p>
 
-<p align="center">
+Badges:
+```
+  <p align="center">
   <a target="_blank" rel="noopener noreferrer" href="https://badge.fury.io/rb/pig-ci-rails">
     <img src="https://badge.fury.io/rb/pig-ci-rails.svg" alt="Gem Version" style="max-width:100%;">
   </a>
@@ -17,15 +20,24 @@ Monitor your Ruby Applications metrics (Memory, SQL Requests & Request Time) as 
     <img src="https://github.com/PigCI/pig-ci-rails/workflows/Linters/badge.svg" alt="Linters" style="max-width:100%;">
   </a>
 </p>
+```
 
 
-## Deprecation notice
+## Maintenance mode
 
-This gem is not longer actively maintained, I suggest using theses alternatives instead:
+Maintainer's note: I'll keep it afloat and with first changes you will see it on RubyGems. \
+Please, create issues if you have compability/deprecation problems.
 
+Author adds these alternatives, but I don't see anything that so easely ebids you \
+from the need to write benchmarking code:
+
+- [✨RSpec::Benchmark](https://github.com/piotrmurach/rspec-benchmark)
 - [TestProf](https://github.com/test-prof/test-prof)
 - [rack-mini-profiler](https://github.com/MiniProfiler/rack-mini-profiler)
-- [RSpec::Benchmark](https://github.com/piotrmurach/rspec-benchmark)
+
+
+PS Take a look at this great gem:
+- [Derailed Benchmarks](https://github.com/zombocom/derailed_benchmarks)
 
 ## Sample Output
 
